@@ -1,0 +1,51 @@
+body {
+    font-family: "Rubik";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .calc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    background-color: aquamarine;
+  }
+
+  #num1{
+    font-family: "Oswald";
+    border-radius: 20px;
+    border-color: brown;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0)
+  }
+
+   #num2{
+    font-family: "Oswald";
+    border-radius: 20px;
+    border-color: brown;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0)
+  }
+
+  #titulo{
+    display: flex;
+    align-items:center;
+    flex-direction:row;
+  }
+
+  #botao{
+    font-family: "Noto Sans";
+    border-radius: 3px;
+    color: rgb(255, 254, 254);
+    background-color: black;
+    border: none;
+    height: 25px;
+  }
+
+  .divisoria{
+    margin: 20px;
+  }
